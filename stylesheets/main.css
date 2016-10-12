@@ -2,6 +2,17 @@
 
 body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
 
+
+img {
+  max-width: 100%;
+  height :auto;
+  width:auto;
+}
+Imgage {
+  max-width: 100%;
+  height :auto;
+  width:auto;
+}
 .row {width: 1560px}
 
 .page_wrap {margin: 50px auto 50px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
@@ -206,24 +217,3 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
 .col5 img { max-width: 480px; }
 
 /***** Media Quries *****/
-@media only screen and (max-width: 1024px) {
-	.page_wrap{
-		width:80%;
-	}
-}
-}
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-@media only screen and (max-width: 640px) and (min-width: 480px) {
-	.page_wrap{
-		width:100%;
-	}
-    .row {width: 560px}
-}
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.page_wrap{
-		width:100%;
-	}
-    .row {width: 560px}
-    
-}
