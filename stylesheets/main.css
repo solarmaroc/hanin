@@ -205,4 +205,23 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
 .col4 img { max-width: 380px; }
 .col5 img { max-width: 480px; }
 
-
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	.page_wrap{
+		width:80%;
+	}	
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.page_wrap{
+		width:6%;
+	}
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.page.wrap{
+		width:50%;
+	}
+   
+    
+}
