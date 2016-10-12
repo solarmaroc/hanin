@@ -2,9 +2,9 @@
 
 body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
 
-.row {width: 960px}
+.row {width: 1260px}
 
-.page_wrap {margin: 500px auto 500px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
+.page_wrap {margin: 50px auto 50px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 
 .header_nav {background: #f8f8f8; padding: 10px 0 2px; margin-bottom: 25px}
 
