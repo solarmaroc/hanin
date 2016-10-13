@@ -8,12 +8,8 @@ img {
   height :auto;
   width:auto;
 }
-Imgage {
-  max-width: 100%;
-  height :auto;
-  width:auto;
-}
-.row {width: 1560px}
+
+.row {width: 1400px}
 
 .page_wrap {margin: 50px auto 50px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 
@@ -34,7 +30,7 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .heading_center_bg {background:#FFF; padding:0 10px}
 
 .heading_supersize {font-size: 74px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
-.heading_largesize {font-size: 44px; text-align:center; font-weight: normal}
+.heading_largesize {font-size: 30px; text-align:center; font-weight: normal; line-height: normal}
 
 .dropcap_green, 
 .dropcap_black {  
@@ -59,8 +55,8 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 
 
 .nav-bar {margin-top: 0; background: none}
-.nav-bar > li {border: 0; padding: 0; font-family: 'Open Sans Condensed',sans-serif; letter-spacing: 1px}
-.nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 25px}
+.nav-bar > li {border: 0; padding: 0; font-family: 'Open Sans Condensed',sans-serif; letter-spacing: 1px;}
+.nav-bar > li > a:first-child {font-size: 14px; text-transform: initial; padding: 5px 25px}
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #F8F8F8; cursor: default; }{}
 .nav-bar > li:hover { background: #F8F8F8; color: #000;         
@@ -216,4 +212,4 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
 .col4 img { max-width: 380px; }
 .col5 img { max-width: 480px; }
 
-/***** Media Quries *****/
+
