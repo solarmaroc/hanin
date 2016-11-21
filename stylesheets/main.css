@@ -2,24 +2,22 @@
 
 body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
 
-
-img {
+.img {
   max-width: 100%;
   height :auto;
   width:auto;
+  padding: 0px 50px 0px 0px;
 }
-text-justify
+.row {width: 960px}
 
-.row {width: 1250px}
-
-.page_wrap {margin: 20px auto 20px; border-radius: 10px; background: #FFF; box-shadow: 0 1px 8px rgba(34, 25, 25, 0.4)}
+.page_wrap {margin: 25px auto 25px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 8px rgba(34, 25, 25, 0.4)}
 
 .header_nav {background: #f8f8f8; padding: 10px 0 2px; margin-bottom: 25px}
 
-.header_nav_fullwidth {background: #f8f8f8; padding: 10px 0 2px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
+.header_nav_fullwidth {background: #f8f8f8; padding: 20px 0 2px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 f
-.header_logo {padding: 28px 0 0}
-.header_logo img {float: right; margin-right: 30px}
+.header_logo {padding: 20px 0 0}
+.header_logo img {float: right; margin-right: 30px;padding: 20px 0 0}
 
 .blog_post {}
 p {color: #000; font-size: 13px}
@@ -30,7 +28,7 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .heading_bg {background:#FFF; padding-right: 10px}
 .heading_center_bg {background:#FFF; padding:0 10px}
 
-.heading_supersize {font-size: 74px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
+.heading_supersize {font-size: 64px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
 .heading_largesize {font-size: 30px; text-align:center; font-weight: normal; line-height: normal}
 .textbox {font-size: 25px; text-align:justify; font-weight: normal; line-height: normal; margin:0 0 2px}
 
@@ -56,9 +54,9 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .panel.callout p {color: #FFF}
 
 
-.nav-bar {margin-top: 0; background: none}
-.nav-bar > li {border: 0; padding: 0; font-family: 'Open Sans Condensed',sans-serif; letter-spacing: 1px;}
-.nav-bar > li > a:first-child {font-size: 14px; text-transform: initial; padding: 5px 25px}
+.nav-bar {margin-top: 0px; background: none; font-size: 16px; padding: 0px 0px 0px 0px}
+.nav-bar > li {border: 0; padding: 0px 15px 0px 0px; font-family: 'Open Sans Condensed',sans-serif; letter-spacing: 1px;}
+.nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 20px}
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #F8F8F8; cursor: default; }{}
 .nav-bar > li:hover { background: #F8F8F8; color: #000;         
@@ -69,7 +67,7 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
         transition: all .2s ease-in-out; 
 }
 
-.nav-bar > li > a { color: #000}
+.nav-bar > li > a { color: #000;}
 .nav-bar > li > a:hover { color: #000;}
 
 .nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: #848484 transparent transparent transparent; position: absolute; right: 20px; top: 20px; }
