@@ -6,7 +6,7 @@ body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
   max-width: 100%;
   height :auto;
   width:auto;
-  padding: 0px 50px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 .row {width: 960px}
 
@@ -28,7 +28,7 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .heading_bg {background:#FFF; padding-right: 10px}
 .heading_center_bg {background:#FFF; padding:0 10px}
 
-.heading_supersize {font-size: 64px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
+.heading_supersize {font-size: 54px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
 .heading_largesize {font-size: 30px; text-align:center; font-weight: normal; line-height: normal}
 .textbox {font-size: 25px; text-align:justify; font-weight: normal; line-height: normal; margin:0 0 2px}
 
@@ -54,9 +54,9 @@ h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .panel.callout p {color: #FFF}
 
 
-.nav-bar {margin-top: 0px; background: none; font-size: 16px; padding: 0px 0px 0px 0px}
+.nav-bar {margin-top: 0px; background: none; font-size: 14px; padding: 0px 0px 0px 0px}
 .nav-bar > li {border: 0; padding: 0px 15px 0px 0px; font-family: 'Open Sans Condensed',sans-serif; letter-spacing: 1px;}
-.nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 20px}
+.nav-bar > li > a:first-child {font-size: 15px; text-transform: uppercase; padding: 5px 20px}
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #F8F8F8; cursor: default; }{}
 .nav-bar > li:hover { background: #F8F8F8; color: #000;         
